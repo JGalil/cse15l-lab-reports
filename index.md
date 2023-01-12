@@ -1,8 +1,8 @@
 # Voodoo 1, Viper's on station
 
--one
--two
--three
+- one
+- two
+- three
 1. four
 2. five
 3. six
