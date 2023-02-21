@@ -3,8 +3,9 @@
 Command: find
 Options:
 
-## With -name(found at https://linuxhandbook.com/find-command-examples/):
+## With -name(found [here](https://linuxhandbook.com/find-command-examples/)):
 This option searches for a specific file name
+
 1.
 ```
 $ find . -name "Vallarta-WhereToGo.txt"
@@ -15,7 +16,7 @@ $ find . -name "Vallarta-WhereToGo.txt"
 $ find . -name "CostaBlanca-History.txt"
 ./travel_guides/berlitz2/CostaBlanca-History.txt
 ```
-## With -type(found at https://linuxhandbook.com/find-command-examples/):
+## With -type(found [here](https://linuxhandbook.com/find-command-examples/)):
 This option searches for a specific type of file
 1.
 ```
@@ -261,7 +262,7 @@ $ find . -type f
 ./travel_guides/berlitz2/Vallarta-WhatToDo.txt
 ./travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
-## With iname(found at https://linuxhandbook.com/find-command-examples/):
+## With iname(found [here](https://linuxhandbook.com/find-command-examples/)):
 This option makes the search term case insensitive, useful for avoiding errors made due to a capitalization error
 1.
 ```
@@ -273,7 +274,7 @@ $ find . -iname BERLITZ2
 $ find . -iname BeRlItZ1
 ./travel_guides/berlitz1
 ```
-## With size(found at https://linuxhandbook.com/find-command-examples/):
+## With size(found [here](https://linuxhandbook.com/find-command-examples/)):
 This option searches by size of file, without modifiers, the exact size, with + greater than, with - smaller than the size specified.
 This is useful for searching for files of different sizes.
 1.
