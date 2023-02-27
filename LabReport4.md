@@ -20,7 +20,7 @@
 
 - typed: vim ListExamples.java<Enter> to enter vim and edit the file to correct the mistake
 
-- navigated to the bottommost while loop and changed "index1 += 1" to "Index2 +=1" then \<ESC> to exit insert mode then <:>\<w>\<q><Enter> to save and exit vim
+- navigated to the bottommost while loop and changed "index1 += 1" to "Index2 +=1" then \<ESC> to exit insert mode then \<:>\<w>\<q><Enter> to save and exit vim
 
 ![image](https://user-images.githubusercontent.com/122497361/221472356-5e3d5914-f8d0-417c-8bad-827a9a9af28a.png)
 
@@ -30,6 +30,6 @@
 
 - typed: git commit ListExamples.java\<Enter> to commit the changes and then pressed \<i> to enter insert mode in vim, then wrote 'Updated'
 
-- then I pressed <esc> to exit vim and then used <:>\<w>\<q> to save and exit vim
+- then I pressed <esc> to exit vim and then used \<:>\<w>\<q>\<Enter> to save and exit vim
 
 ![image](https://user-images.githubusercontent.com/122497361/221473138-671d573a-448a-43c1-87ae-f36687d813b2.png)
