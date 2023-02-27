@@ -30,6 +30,6 @@
 
 - typed: git commit ListExamples.java\<Enter> to commit the changes and then pressed \<i> to enter insert mode in vim, then wrote 'Updated'
 
-- then I pressed \<esc> to exit vim and then used \<:>\<w>\<q>\<Enter> to save and exit vim
+- then I pressed \<esc> to exit insert mode and then used \<:>\<w>\<q>\<Enter> to save and exit vim
 
 ![image](https://user-images.githubusercontent.com/122497361/221473138-671d573a-448a-43c1-87ae-f36687d813b2.png)
