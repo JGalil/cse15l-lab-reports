@@ -32,7 +32,10 @@ cd  lab7
   
 javac -cp  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar  *.java
   
-java -cp  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar  org.junit.runner.JUnitCore  ListExamplesTests
+java -cp  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar 
+#these are two separate lines because the save to pdf bugged
+#otherwise
+org.junit.runner.JUnitCore  ListExamplesTests
 
   
 sed -i  '43s/index1/index2/'  ListExamples.java
@@ -41,7 +44,10 @@ git commit
   
 javac -cp  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar  *.java
   
-java -cp  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar  org.junit.runner.JUnitCore  ListExamplesTests
+java -cp  .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar  
+#these are two separate lines because the save to pdf bugged
+#otherwise
+org.junit.runner.JUnitCore  ListExamplesTests
 
   
 git add  .  ListExamples.java
